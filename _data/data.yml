@@ -1,0 +1,161 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Sara Karimi
+    tagline: Backend Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: sarraah.karimi@gmail.com
+    phone: 
+    timezone: 
+    citizenship:
+    website: sarrkar.github.io #do not add http://
+    linkedin: 
+    xing: 
+    github: sarrkar
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Persian
+          level: Native
+
+        - idiom: English
+          level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: Neuroscience
+          link:
+
+        - item: Artificial Intelligence
+          link:
+
+        - item: Music
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I am an artificial intelligence enthusiast with a focus on machine learning and deep learning and
+      a passion for neuroscience. I have taken multiple courses in the field of artificial intelligence
+      and TAed for some of them.
+      I have experience working with different machine learning frameworks such as PyTorch and Scikit-Learn.
+      I'm also proficient with different data tools such as Apache Spark and MySQL and working with big data.
+
+
+education:
+    title: Education
+    info:
+      - degree: Visiting BSc in Computer Engineering
+        university: Sharif University of Technology
+        time: 2022 - Present
+        details: 
+      - degree: BSc in Electrical Engineering
+        university: 
+        time: 2021 - Present
+        details: 
+
+experiences:
+    title: Experiences
+    info:
+      - role: Backend Developer
+        time: 2023 - Present
+        company: Tabdeal
+        details: |
+          I started the job here recently. The job requirements included a deep understanding of
+          concurrency and database transactions. I've been tasked with developing a backend for
+          a trading bot to be used in the cryptocurrency market. I've also been tasked with
+          developing a customer relationship management system for the company. clean code and
+          test-driven development are the main requirements of the job. high throughput and
+          low latency are also important.
+      - role: ML Researcher
+        time: 2022 - 2023
+        company: Sharif University of Technology Dr. Rohban's Lab
+        details: |
+          I worked on multiple projects in the field of machine learning and deep learning. The projects
+          ranged from computer vision for histopathology images to adversarial attacks on deep learning
+          models. I've also worked on a project in the field of natural language processing. I've
+          experienced working with different approaches to adversarial attacks such as FGSM and PGD and 
+          how to defend against them. Ive also worked on preprocessing histopathology images and
+          extracting features from them and deploying deep learning models such as Convolutional Neural Networks
+          and Vision Transformers.
+      - role: Junior ML Engineer
+        time: 2021 - 2022
+        company: ToobaTech
+        details: |
+          I worked as a junior machine learning engineer in ToobaTech.
+          The job requirements included a deep understanding of machine learning and deep learning with 
+          a focus on big data and computer vision. I've experienced working with different machine learning
+          frameworks such as PyTorch and Scikit-Learn I've also worked with different tools such as
+          Apache Spark and MySQL.
+
+certifications: 
+
+projects:
+    title: Projects
+    intro: >
+      I've recently started adding my projects to GitHub. You can find them here:
+
+    assignments:
+      - title: Vectorized NFGSM
+        link: "https://github.com/sarrkar/VNFGSM"
+        tagline: |
+          A vectorized implementation of NFGSM defense against adversarial attacks on deep learning models
+          in PyTorch. It works better than the original implementation of NFGSM against PGD and FGSM attacks.
+
+      - title: Cell Phone Charge Manager
+        link: "https://github.com/sarrkar/TabdealProjects"
+        tagline: |
+          A mini project defined for tabdeal with the goal of managing the charging of cell phones. It
+          had a focus on concurrency and database transactions.
+
+      - title: Solutions for Artificial Intelligence Course
+        link: "https://github.com/sarrkar/CE417-Artificial-Intelligence-Solutions"
+        tagline: |
+          My solutions for the assignments of the Artificial Intelligence course at Sharif University of
+          Technology. The assignments included a wide range of topics such as search algorithms, constraint
+          satisfaction problems, and machine learning.
+
+oss: 
+
+publications: 
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 90%
+
+      - name: Django
+        level: 80%
+      
+      - name: MySQL
+        level: 80%
+
+      - name: PyTorch
+        level: 70%
+
+      - name: LaTeX
+        level: 60%
+
+      - name: Apache Spark
+        level: 50%
